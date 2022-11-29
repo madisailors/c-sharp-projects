@@ -24,14 +24,15 @@ namespace BooleanLogic
             Console.ReadLine();
             Console.WriteLine("What is your age?");
             int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Have you ever recieved a DUI?");
+            Console.WriteLine("Have you ever recieved a DUI? please type true or false");
             bool dui = Convert.ToBoolean(Console.ReadLine());
             Console.WriteLine("How many speeding tickets have you recieved?");
             int tickets = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Qualified? ");
+            Console.ReadLine();
 
-            Console.WriteLine
-
-
+            Console.WriteLine(age >= 15 && dui == false && tickets <= 3);
+            Console.ReadLine();
 
         }
     }
