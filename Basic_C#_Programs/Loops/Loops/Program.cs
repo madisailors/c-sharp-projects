@@ -8,7 +8,7 @@ namespace Loops
         {
             Console.WriteLine("Guess a number?");
             int number = Convert.ToInt32(Console.ReadLine());
-            bool isGuessed = number == 12;
+            bool isGuessed = number == 42;
 
             do
             {
@@ -29,8 +29,8 @@ namespace Loops
                         number = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Guess a number?");
                         break;
-                    case 12:
-                        Console.WriteLine("You guessed the number 12, that is correct!");
+                    case 42:
+                        Console.WriteLine("You guessed the number 42, that is correct!");
                         isGuessed = true;
                         break;
                     default:
