@@ -57,23 +57,27 @@ namespace Branching
             {
                 Console.WriteLine("Package is too heavy to be shipped via package express.");
             }
-            Console.WriteLine("What is the package width?");
-            int width = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("What is the package height?");
-            int height = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("What is the package length?");
-            int length = Convert.ToInt32(Console.ReadLine());
-
-            if (width > 50 || length > 50 || height > 50)
-            {
-                Console.WriteLine("Your package is too big to be shipped via package express.");
-            }
             else
             {
-                Console.WriteLine("your quote is: $" + width * length * height * weight / 100);
-            }
-            Console.ReadLine();
+                Console.WriteLine("What is the package width?");
+                int width = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("What is the package height?");
+                int height = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("What is the package length?");
+                int length = Convert.ToInt32(Console.ReadLine());
 
+                if ((width + length + height) > 50)
+                {
+                    Console.WriteLine("Your package is too big to be shipped via package express.");
+                }
+                else
+                {
+                    Console.WriteLine("your quote is: $" + width * length * height * weight / 100);
+                }
+                Console.ReadLine();
+
+            }
         }
+            
     }
 }

@@ -5,3 +5,10 @@ C:\Users\madis\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.csproj.
 C:\Users\madis\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.csproj.CoreCompileInputs.cache
 C:\Users\madis\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.exe
 C:\Users\madis\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\bin\Debug\Branching.exe.config
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\bin\Debug\Branching.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\bin\Debug\Branching.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.csproj.AssemblyReference.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.csproj.CoreCompileInputs.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Branching\Branching\obj\Debug\Branching.pdb
