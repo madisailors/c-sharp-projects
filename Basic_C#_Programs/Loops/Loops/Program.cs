@@ -36,6 +36,7 @@ namespace Loops
                     default:
                         Console.WriteLine("You're wrong!");
                         Console.WriteLine("Guess a number?");
+                        number = Convert.ToInt32(Console.ReadLine());
                         break;
                 }
             }
@@ -43,6 +44,17 @@ namespace Loops
             while (!isGuessed);
             
             Console.Read();
+
+            int counter = 1;
+            while (counter <= 10)
+            {
+                if (counter != 7)
+                {
+                }
+                Console.WriteLine("{0}", counter);
+                counter++;
+            }
+            Console.ReadLine();
         }
     }
 }
