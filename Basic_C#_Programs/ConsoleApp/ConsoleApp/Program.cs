@@ -14,6 +14,12 @@ namespace ConsoleApp
 
             Console.WriteLine("Please type an animal to add to the array");
             string input = Console.ReadLine();
+
+            for (int animal = 0; animal < animals.Length; animal++)
+            {
+                animals.Add(input);
+            }
+
         }
     }
 }
