@@ -18,8 +18,14 @@ namespace ArraysAnsLists
             string[] animals = { "dog", "cat", "horse", "mouse" };
             int[] num = { 5, 10, 15, 20 };
 
-            Console.WriteLine("Please select an animal by its index (0-4): " + animals[0-3]);
-            Console.ReadLine();
+            Console.WriteLine("Please select an animal by its index (0-3): " + animals);
+            int userInput = Convert.ToInt32(Console.ReadLine());
+
+            for (animals) 
+            {
+                Console.WriteLine(animals[userInput]);
+                Console.ReadLine();
+            }
 
 
 
