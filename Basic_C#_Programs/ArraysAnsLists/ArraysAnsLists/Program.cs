@@ -21,12 +21,20 @@ namespace ArraysAnsLists
             Console.WriteLine("Please select an animal by its index (0-3): " + animals);
             int userInput = Convert.ToInt32(Console.ReadLine());
 
-            for (animals) 
+            for (int loop = 0; loop < 5; loop++ ) 
             {
                 Console.WriteLine(animals[userInput]);
                 Console.ReadLine();
             }
 
+            Console.WriteLine("Please select a number by its index (0-3): " + num);
+            int userInput1 = Convert.ToInt32(Console.ReadLine());
+
+            for (int loop = 0; loop < 5; loop++)
+            {
+                Console.WriteLine(num[userInput1]);
+                Console.ReadLine();
+            }
 
 
             //int[] numarray = new int[5];
