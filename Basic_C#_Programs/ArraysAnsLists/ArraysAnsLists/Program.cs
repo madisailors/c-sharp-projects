@@ -23,29 +23,52 @@ namespace ArraysAnsLists
 
             Console.WriteLine("Please select your eye color from the following list based on its index(0-3):");
             int color = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(stringList);
-            Console.ReadLine();
-
             Console.WriteLine(stringList[color]);
             Console.ReadLine();
+
+
+            if (color >= 0 && color <= 3)
+            {
+                Console.WriteLine(stringList[color]);
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Sorry, invalid index number, please try again try again");
+                Console.ReadLine();
+            }
 
             string[] animals = { "dog", "cat", "horse", "mouse" };
             int[] num = { 5, 10, 15, 20 };
 
-            Console.WriteLine("Please select an animal by its index (0-3): " + animals);
+            Console.WriteLine("Please select an animal by its index (0-3): " + animals[0] + animals[1] + animals[2] + animals[3]);
             int userInput = Convert.ToInt32(Console.ReadLine());
 
-     
-            Console.WriteLine(animals[userInput]);
-            Console.ReadLine();
 
-            Console.WriteLine("Please select a number by its index (0-3): " + num);
+            if (userInput >= 0 && userInput <= 3)
+            {
+                Console.WriteLine(animals[userInput]);
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Sorry, invalid index number, please try again");
+                Console.ReadLine();
+            }
+
+            Console.WriteLine("Please select a number by its index (0-3): " + num[0] + num[1] + num[2] + num[3]);
             int userInput1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(num[userInput1]);
-            Console.ReadLine();
-
-           
+            if (userInput1 >= 0 && userInput1 <= 3)
+            {
+                Console.WriteLine(num[userInput1]);
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Sorry, invalid index number, please try again");
+                Console.ReadLine();
+            }
 
 
             //int[] numarray = new int[5];
