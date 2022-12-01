@@ -23,7 +23,6 @@ namespace ArraysAnsLists
 
             Console.WriteLine("Please select your eye color from the following list based on its index(0-3):");
             int color = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(stringList[color]);
             Console.ReadLine();
 
 
