@@ -17,10 +17,10 @@ namespace ConsoleApp
 
             for (int i = 0; i < animals.Length; i++)
             {
-                animals[i] = animals[i]+(input);   //take string at animals array at position i, add the user input to it, save it back to the array at position i
+                animals[i] = animals[i] + (input);   //take string at animals array at position i, add the user input to it, save it back to the array at position i
             }
 
-            for (int i=0; i<animals.Length; i++)
+            for (int i = 0; i < animals.Length; i++)
             {
                 Console.WriteLine(animals[i]);
             }
@@ -57,23 +57,23 @@ namespace ConsoleApp
             List<string> birds = new List<string> { "Chicken", "Duck", "Crow", "Raven" };
 
             Console.WriteLine("Please type a bird to search through the list");
-            string search = Console.ReadLine();               
-            
-                if (birds.Contains(search))
-                 {
-                    for (int i = 0; i < birds.Count(); i++)
-                    {
-                        if (search == birds[i])
+            string search = Console.ReadLine();
+
+            if (birds.Contains(search))
+            {
+                for (int i = 0; i < birds.Count(); i++)
+                {
+                    if (search == birds[i])
                     {
                         Console.WriteLine(i);
                         break;
                     }
-                    }
                 }
-                else
-                {
-                    Console.WriteLine("The item you entered does not match any of the birds on the list. please try again.");
-                }
+            }
+            else
+            {
+                Console.WriteLine("The item you entered does not match any of the birds on the list. please try again.");
+            }
             Console.ReadLine();
 
 
@@ -94,7 +94,7 @@ namespace ConsoleApp
             {
                 for (int i = 0; i < bugs.Count(); i++)
                 {
-                    if (search == bugs[i])
+                    if (bugSearch == bugs[i])
                     {
                         Console.WriteLine(i);
                     }
@@ -109,17 +109,18 @@ namespace ConsoleApp
             //assignment part 6
 
             List<string> sodas = new List<string> { "coke", "rootbeer", "sprite", "orange", "sprite" };
+            List<string> duplicates = new List<string> { };
 
             foreach (string soda in sodas)
             {
-                if (soda == "coke")
-                    Console.WriteLine("Coke - This item is unique");
-                if (soda == "rootbeer")
-                    Console.WriteLine("Rootbeer - This item is unique");
-                if (soda == "orange")
-                    Console.WriteLine("Orange - This item is unique");
-                if (soda == "sprite")
-                    Console.WriteLine("Sprite - This item is a duplicate");
+                if (duplicates.Contains(soda))
+                {
+                    Console.WriteLine(soda + " - This item is a duplicate");
+                }
+                else
+                {
+                    Console.WriteLine(soda + " - This item is unique");
+                }
             }
             Console.ReadLine();
         }
