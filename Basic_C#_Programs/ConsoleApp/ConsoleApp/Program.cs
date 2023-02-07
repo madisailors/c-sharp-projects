@@ -120,7 +120,9 @@ namespace ConsoleApp
                 else
                 {
                     Console.WriteLine(soda + " - This item is unique");
+
                 }
+                duplicates.Add(soda);
             }
             Console.ReadLine();
         }
