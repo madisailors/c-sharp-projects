@@ -59,13 +59,16 @@ namespace ConsoleApp
             Console.WriteLine("Please type a bird to search through the list");
             string search = Console.ReadLine();
 
-            if (birds.Contains(search)
-                {
+            foreach (string bird in birds)
+            {
+                if (birds.Contains(search)
+                 {
                     Console.WriteLine(search);
                 }
-            else
-            {
-                Console.WriteLine("The item you entered does not match any of the birds on the list. please try again.");
+                else
+                {
+                    Console.WriteLine("The item you entered does not match any of the birds on the list. please try again.");
+                }
             }
             Console.ReadLine();
         }
