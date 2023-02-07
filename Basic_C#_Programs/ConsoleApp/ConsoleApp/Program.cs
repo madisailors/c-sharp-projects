@@ -81,7 +81,12 @@ namespace ConsoleApp
 
             List<string> bugs = new List<string> { "ladybug", "ant", "fly", "beetle", "fly" };
 
-            Console.WriteLine("Please select a bug from the following list: " + bugs);
+            Console.WriteLine("Please select a bug from the following list: ");
+            foreach (string bug in bugs)
+            {
+                Console.WriteLine(bug);
+            }
+
 
             string bugSearch = Console.ReadLine();
 
@@ -101,8 +106,22 @@ namespace ConsoleApp
             }
             Console.ReadLine();
 
+            //assignment part 6
 
+            List<string> sodas = new List<string> { "coke", "rootbeer", "sprite", "orange", "sprite" };
 
+            foreach (string soda in sodas)
+            {
+                if (soda == "coke")
+                    Console.WriteLine("Coke - This item is unique");
+                if (soda == "rootbeer")
+                    Console.WriteLine("Rootbeer - This item is unique");
+                if (soda == "orange")
+                    Console.WriteLine("Orange - This item is unique");
+                if (soda == "sprite")
+                    Console.WriteLine("Sprite - This item is a duplicate");
+            }
+            Console.ReadLine();
         }
     }
 }
