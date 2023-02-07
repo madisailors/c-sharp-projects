@@ -8,15 +8,17 @@ using System.Threading.Tasks;
   {
     static void Main(string[] args)
     {
+        List<int> nums = new List<int> { 2, 4, 60, 80, 120, };
         try
         {
             Console.WriteLine("Pick a number");
             int numberOne = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Pick a second number");
-            int numberTwo = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Dividing the two...");
-            int numberThree = numberOne / numberTwo;
-            Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
+            Console.WriteLine("Dividing...");
+            foreach (int num in nums)
+            {
+                int numberAns = num / numberOne;
+                Console.WriteLine(numberOne + " divided by " + num + " equals " + numberAns);
+            }   
             Console.ReadLine();
         }
         catch (FormatException ex)    
@@ -35,5 +37,7 @@ using System.Threading.Tasks;
         {
             Console.ReadLine();
         }
+        Console.WriteLine("Try/Catch block complete, continuing with program execution");
+        Console.ReadLine();
      }
   }
