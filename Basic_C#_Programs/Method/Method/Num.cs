@@ -20,7 +20,7 @@ namespace Method
                 return result;
             }
 
-            public int Mutiplies(int num2)
+            public int Multiplies(int num2)
             {
                 int result = num2 * 10;
                 return result;

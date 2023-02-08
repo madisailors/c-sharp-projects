@@ -16,22 +16,22 @@ namespace Method
 
             Console.WriteLine("Please enter a number to be subtracted by 10: ");
             int input = Convert.ToInt32(Console.ReadLine());  // reads user input and converts it to an integer, then stores the result as the variable called input
-            num.Subtracts(input);
-            Console.WriteLine();
+            int number1 = num.Subtracts(input);
+            Console.WriteLine(number1);
             Console.ReadLine();
 
             Num num1 = new Num();
             Console.WriteLine("Please enter a number to be added to 10: ");
             int input2 = Convert.ToInt32(Console.ReadLine());
-            num1.Adds(input2);  // Calling the method from Num class 
-            Console.WriteLine();   //displaying output from Method
+            int number2 = num1.Adds(input2);  // Calling the method from Num class 
+            Console.WriteLine(number2);   //displaying output from Method
             Console.ReadLine();
 
             Num num2 = new Num();
             Console.WriteLine("Please enter a number to be multiplied by 10: ");
             int input3 = Convert.ToInt32(Console.ReadLine());
-            num2.Adds(input3);  // Calling the method from Num class 
-            Console.WriteLine();   //displaying output from Method
+            int number3 = num2.Multiplies(input3);  // Calling the method from Num class and storing the output 
+            Console.WriteLine(number3);   //displaying output from Method
             Console.ReadLine();
 
         }
