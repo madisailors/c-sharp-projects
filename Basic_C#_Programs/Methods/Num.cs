@@ -8,9 +8,10 @@ namespace Methods
 {
     class Num
     {
-        public static Num subtract(Num  num)
+        public int subtract(int  num)
         {
-            
+            int result = num - 10;
+            return result;
         }
     }
 }
