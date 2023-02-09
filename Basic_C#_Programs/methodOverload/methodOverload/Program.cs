@@ -10,6 +10,14 @@ namespace methodOverload
     {
         static void Main(string[] args)
         {
+            Math1 math1 = new Math1();
+
+            Console.WriteLine("Please enter one or two numbers to be added to 7");
+            int userInput = Convert.ToInt32(Console.ReadLine());
+            int Input1 = math1.Method1(userInput);
+            Console.WriteLine(Input1);
+            Console.ReadLine();
+
             Math num = new Math();
 
             Console.WriteLine("Please enter a number to multiply by 15: ");
@@ -31,7 +39,7 @@ namespace methodOverload
             Console.WriteLine("Please enter a number to be divided by 2");
             string input2 = Console.ReadLine(); // storing user input
             int number3 = num2.Method(input2);  //storing method result & calling third method in Math class
-            Console.WriteLine(number3);  
+            Console.WriteLine(number3);
             Console.ReadLine();
 
 
