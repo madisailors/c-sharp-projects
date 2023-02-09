@@ -1,0 +1,14 @@
+C:\Users\madis\Basic_C#_Programs\Method\Method\bin\Debug\Method.exe.config
+C:\Users\madis\Basic_C#_Programs\Method\Method\bin\Debug\Method.exe
+C:\Users\madis\Basic_C#_Programs\Method\Method\bin\Debug\Method.pdb
+C:\Users\madis\Basic_C#_Programs\Method\Method\obj\Debug\Method.csproj.AssemblyReference.cache
+C:\Users\madis\Basic_C#_Programs\Method\Method\obj\Debug\Method.csproj.CoreCompileInputs.cache
+C:\Users\madis\Basic_C#_Programs\Method\Method\obj\Debug\Method.exe
+C:\Users\madis\Basic_C#_Programs\Method\Method\obj\Debug\Method.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\bin\Debug\Method.exe.config
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\bin\Debug\Method.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\bin\Debug\Method.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\obj\Debug\Method.csproj.AssemblyReference.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\obj\Debug\Method.csproj.CoreCompileInputs.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\obj\Debug\Method.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\Method\Method\obj\Debug\Method.pdb

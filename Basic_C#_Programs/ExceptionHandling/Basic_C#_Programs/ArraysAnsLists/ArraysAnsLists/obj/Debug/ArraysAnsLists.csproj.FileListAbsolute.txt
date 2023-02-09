@@ -1,0 +1,7 @@
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\bin\Debug\ArraysAnsLists.exe.config
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\bin\Debug\ArraysAnsLists.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\bin\Debug\ArraysAnsLists.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\obj\Debug\ArraysAnsLists.csproj.AssemblyReference.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\obj\Debug\ArraysAnsLists.csproj.CoreCompileInputs.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\obj\Debug\ArraysAnsLists.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\ArraysAnsLists\ArraysAnsLists\obj\Debug\ArraysAnsLists.pdb
