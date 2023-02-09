@@ -18,6 +18,22 @@ namespace methodOverload
             Console.WriteLine(number1);
             Console.ReadLine();
 
+            Math num1 = new Math();
+
+            Console.WriteLine("Please enter a decimal number to be added to 5: ");
+            decimal input1 = Convert.ToDecimal(Console.ReadLine());
+            decimal number2 = num1.Method(input1);
+            Console.WriteLine(number2);
+            Console.ReadLine();
+
+            Math num2 = new Math();
+
+            Console.WriteLine("Please enter a number to be divided by 2");
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            int number3 = num2.Method(input2);
+            Console.WriteLine(number3);
+            Console.ReadLine();
+
 
         }
         // Add a second method to the class with the

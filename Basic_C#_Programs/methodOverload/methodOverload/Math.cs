@@ -14,9 +14,16 @@ namespace methodOverload
             return result;
         }
 
-        public int Method(decimal num1)
+        public decimal Method(decimal num1)
         {
             decimal result = num1 + 5;
+            return result;
+        }
+
+        public int Method(string num2)
+        {
+            
+            int result = num2 / 2;
             return result;
         }
     }
