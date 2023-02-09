@@ -29,8 +29,8 @@ namespace methodOverload
             Math num2 = new Math();
 
             Console.WriteLine("Please enter a number to be divided by 2");
-            int input2 = Convert.ToInt32(Console.ReadLine());
-            int number3 = num2.Method(input2);
+            string input2 = Console.ReadLine();
+            int number3 = num2.Method(input2); 
             Console.WriteLine(number3);
             Console.ReadLine();
 

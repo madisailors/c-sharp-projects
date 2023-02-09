@@ -20,10 +20,10 @@ namespace methodOverload
             return result;
         }
 
-        public int Method(string num2)
+        public int Method(string input2)
         {
-            
-            int result = num2 / 2;
+            string input = Convert.ToInt32(Console.ReadLine());
+            int result = input / 2;
             return result;
         }
     }
