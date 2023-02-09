@@ -22,7 +22,7 @@ namespace methodOverload
 
         public int Method(string input2)
         {
-            string input = Convert.ToInt32(Console.ReadLine());
+            int input = Convert.ToInt32(input2);
             int result = input / 2;
             return result;
         }
