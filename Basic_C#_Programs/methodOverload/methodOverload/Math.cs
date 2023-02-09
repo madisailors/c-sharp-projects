@@ -22,8 +22,8 @@ namespace methodOverload
 
         public int Method(string input2)
         {
-            int input = Convert.ToInt32(input2);
-            int result = input / 2;
+            int input = Convert.ToInt32(input2);  //converting user input into an int
+            int result = input / 2;   // preforming math equation on user input
             return result;
         }
     }

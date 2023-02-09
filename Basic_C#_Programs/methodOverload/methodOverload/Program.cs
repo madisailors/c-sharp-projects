@@ -29,16 +29,12 @@ namespace methodOverload
             Math num2 = new Math();
 
             Console.WriteLine("Please enter a number to be divided by 2");
-            string input2 = Console.ReadLine();
-            int number3 = num2.Method(input2); 
-            Console.WriteLine(number3);
+            string input2 = Console.ReadLine(); // storing user input
+            int number3 = num2.Method(input2);  //storing method result & calling third method in Math class
+            Console.WriteLine(number3);  
             Console.ReadLine();
 
 
         }
-        // Add a second method to the class with the
-        // same name that will take in a decimal,
-        // create a diffent math operation for it,
-        // then return the answer as an integer.
     }
 }
