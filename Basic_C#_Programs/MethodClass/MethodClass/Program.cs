@@ -10,6 +10,16 @@ namespace MethodClass
     {
         static void Main(string[] args)
         {
+            Class1 class1 = new Class1();
+
+            Console.WriteLine("Please enter a number to be added to 5");
+            int userInput = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter a second number to be displayed");
+            int userInput2 = Convert.ToInt32(Console.ReadLine());
+            int number1 = class1.Method(userInput, userInput2);
+            Console.WriteLine(number1);
+
+                
         }
     }
 }
