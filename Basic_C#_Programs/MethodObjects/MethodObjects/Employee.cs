@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MethodObjects
 {
-    class Employee : Person
+    class Employee : Person //inheriting from class Person
     {
-        public int Id { get; set; }
+        public int Id { get; set; }  //adding property Id
     }
 }

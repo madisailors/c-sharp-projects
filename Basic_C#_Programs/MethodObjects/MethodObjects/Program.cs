@@ -10,9 +10,12 @@ namespace MethodObjects
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
+            Employee employee = new Employee(); //instantiating class and assigning variable
 
-            employee.FirstName = new String { "Example" }; 
+            employee.FirstName =  "Sample"; 
+            employee.LastName = "Student";  //assigning string value to property
+            employee.SayName(); //calling method from superclass person
+            Console.ReadLine();
         }
     }
 }
