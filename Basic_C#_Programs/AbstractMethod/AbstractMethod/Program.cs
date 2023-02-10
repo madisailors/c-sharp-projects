@@ -16,6 +16,11 @@ namespace AbstractMethod
             employee.LastName = "Student";
             employee.SayName(); //calling method from Employee class
             Console.ReadLine(); //displaying output
+
+            IQuittable quittable = new Employee();
+ 
+            quittable.Quit();
+
         }
     }
 }

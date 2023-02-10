@@ -12,13 +12,13 @@ namespace AbstractMethod
         {
             Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
-        public void Quit(Person person) //implementing function from Iquittable interface
+        public void Quit() //implementing function from Iquittable interface
         {
             Console.WriteLine(LastName);
             Console.ReadLine();
         }
 
-        IQuittable quittable = new IQuittable(Quit);
+       
         
 
     }
