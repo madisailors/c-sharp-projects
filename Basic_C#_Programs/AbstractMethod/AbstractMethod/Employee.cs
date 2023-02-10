@@ -12,15 +12,11 @@ namespace AbstractMethod
         {
             Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
-        public void Quit() //implementing function from Iquittable interface
+
+        public void Quit(Person person)
         {
-            Console.WriteLine(LastName);
-            Console.ReadLine();
+            throw new NotImplementedException();
         }
-
-       
-        
-
     }
     //Use polymorphism to create an object of type IQuittable and call
     //the Quit() method on it.Hint: an object can be of an interface
