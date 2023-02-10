@@ -13,12 +13,11 @@ namespace AbstractMethod
             Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
 
-        public void Quit(Person person)
+        public void Quit()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(" Quit method had been called ");
+            Console.ReadLine();
         }
     }
-    //Use polymorphism to create an object of type IQuittable and call
-    //the Quit() method on it.Hint: an object can be of an interface
-    //type if it implements that specific interface.
+   
 }

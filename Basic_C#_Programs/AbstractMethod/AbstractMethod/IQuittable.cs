@@ -9,7 +9,7 @@ namespace AbstractMethod
     interface IQuittable
     {
       
-        void Quit(Person person);
+        void Quit();
         
     }
 }
