@@ -38,7 +38,7 @@ namespace methodOverload
             Math num = new Math();
 
             Console.WriteLine("Please enter a number to multiply by 15: ");
-            int input = Convert.ToInt32(Console.ReadLine());
+            int input = Convert.ToInt32(Console.ReadLine()); 
             int number1 = num.Method(input);
             Console.WriteLine(number1);
             Console.ReadLine();
@@ -47,7 +47,8 @@ namespace methodOverload
 
             Console.WriteLine("Please enter a decimal number to be added to 5: ");
             decimal input1 = Convert.ToDecimal(Console.ReadLine());
-            decimal number2 = num1.Method(input1);
+            decimal.ToInt32(input1);
+            int number2 = (int)num1.Method(input1);
             Console.WriteLine(number2);
             Console.ReadLine();
 
