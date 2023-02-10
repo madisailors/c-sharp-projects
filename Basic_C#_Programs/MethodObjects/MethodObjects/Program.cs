@@ -10,6 +10,9 @@ namespace MethodObjects
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+
+            employee.FirstName = new String { "Example" }; 
         }
     }
 }
