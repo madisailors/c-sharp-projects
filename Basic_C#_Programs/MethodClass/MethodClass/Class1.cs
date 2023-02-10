@@ -8,11 +8,11 @@ namespace MethodClass
 {
     class Class1
     {
-          public void Method(int num1, int num2)
+          public void Method(int num1, int num2)  //two parameters
         {
-            int result = num1 + 5;
-            Console.WriteLine(result);
-            Console.WriteLine(num2);
+            int result = num1 + 5;  // passing in parameter 1 for math equation
+            Console.WriteLine(result);   //calling variable result to be displayed
+            Console.WriteLine(num2);     
             Console.ReadLine();
 
         }
