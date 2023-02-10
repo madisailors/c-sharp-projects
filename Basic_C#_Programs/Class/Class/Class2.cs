@@ -10,7 +10,7 @@ namespace Class
     {
         public static void Method(int num)  //static method
         {
-            int result = num + 20;
+            int result = num + 20;  
             Console.WriteLine(result);
             Console.ReadLine();
         }

@@ -15,6 +15,14 @@ namespace Class
             Console.ReadLine(); 
         }
 
+        public void Method(int num, int num1 = 5) //overload method, different parameters but same method name (Method())
+        {
+            int result = num * 2;
+            Console.WriteLine(result);
+            Console.WriteLine(num1);
+            Console.ReadLine();
+        }
+
         public void getValue(out int x)  //output parameters
         {
             int temp = 5;
