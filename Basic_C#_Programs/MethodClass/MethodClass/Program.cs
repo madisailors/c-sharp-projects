@@ -18,8 +18,8 @@ namespace MethodClass
             int userInput2 = Convert.ToInt32(Console.ReadLine());
             class1.Method(userInput, userInput2); //calling method
 
-            Class1 class2 = new Class1(num1:5, num2:12);
-            class2.Method();
+            class1.Method(num1: 5, num2: 12);
+            Console.ReadLine();
 
             
         }

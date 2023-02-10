@@ -4,3 +4,4 @@ C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\MethodClass\
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\MethodClass\MethodClass\obj\Debug\MethodClass.csproj.CoreCompileInputs.cache
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\MethodClass\MethodClass\obj\Debug\MethodClass.exe
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\MethodClass\MethodClass\obj\Debug\MethodClass.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\MethodClass\MethodClass\obj\Debug\MethodClass.csproj.AssemblyReference.cache
