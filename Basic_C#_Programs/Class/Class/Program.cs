@@ -22,16 +22,16 @@ namespace Class
             Console.WriteLine("Before method call, value of a: {0}", a);
             C.getValue(out a); //calling function to get the value
 
-            Console.WriteLine("After method call, value of a: {0}", a);
+            Console.WriteLine("After method call, value of a: {0}", a); 
             Console.ReadLine();
 
-            Class1 Class = new Class1();
+            Class1 Class = new Class1(); //instantiating class
 
-            Console.WriteLine("please enter a different number to be divided by 2");
+            Console.WriteLine("please enter a different number to be divided by 2");   //overloading method
             int userInput1 = Convert.ToInt32(Console.ReadLine());
             Class.Method(userInput1);
 
-            Class2.Method(5);
+            Class2.Method(5); //calling static method from static class
 
         }
     }

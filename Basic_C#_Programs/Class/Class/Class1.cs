@@ -12,10 +12,10 @@ namespace Class
         {
             int result = num / 2;
             Console.WriteLine(result);
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
 
-        public void getValue(out int x)
+        public void getValue(out int x)  //output parameters
         {
             int temp = 5;
             x = temp;
