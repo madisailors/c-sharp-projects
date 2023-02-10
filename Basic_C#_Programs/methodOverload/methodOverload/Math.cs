@@ -16,7 +16,8 @@ namespace methodOverload
 
         public decimal Method(decimal num1)
         {
-            decimal result = num1 + 5;
+            int input = Convert.ToInt32(num1);
+            int result = input + 5;
             return result;
         }
 
