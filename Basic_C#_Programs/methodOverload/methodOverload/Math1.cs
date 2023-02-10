@@ -8,12 +8,10 @@ namespace methodOverload
 {
     class Math1
     {
-        public int Method1(int Num1, int Num2)
+        public int Method1(int Num1, int Num2 = 5)
         {
-            int result = Num1 + 7;
+            int result = Num1 + Num2;
             return result;
-            int result2 = Num2 + 7;
-            return result2;
         }
     }
 }
