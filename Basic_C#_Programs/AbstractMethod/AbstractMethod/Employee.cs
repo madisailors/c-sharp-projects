@@ -8,7 +8,7 @@ namespace AbstractMethod
 {
     public class Employee : Person, IQuittable
     {
-        public void SayName()
+        public override void SayName() //overriding sayName() in Person.cs
         {
             Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
