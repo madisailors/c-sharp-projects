@@ -13,13 +13,13 @@ namespace TwentyOne
         public string Name { get; set; }
         public bool isActivleyPlaying { get; set; }
 
-        public static Game operator+ (Game game, Player player) //Game and Player are what's being added together, and it's returning a game
+        public static Game operator +(Game game, Player player) //Game and Player are what's being added together, and it's returning a game
         {   //overloading the + operator, taking Game and Player
             game.Players.Add(player);  //adding Game and Player together
             return game;               //returning the effected class(game)
         }
 
-        public static Game operator- (Game game, Player player)
+        public static Game operator -(Game game, Player player)
         {
             game.Players.Remove(player);
             return game;
