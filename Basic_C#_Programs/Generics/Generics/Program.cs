@@ -15,6 +15,8 @@ namespace Generics
 
             Employee<int> employee1 = new Employee<int>();
             employee1.Things = new List<int> { 1, 2, 3 };
+
+            
             
           
         }
