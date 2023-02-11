@@ -16,12 +16,16 @@ namespace OperatorOverload
         {
             if (id1.Equals(id2))
                 return true;
+            else
+                return false;
 
         }
         public static bool operator!= (Employee id1, Employee id2)
         {
             if (id1.Equals(id2))
                 return true;
+            else
+                return false;
 
         }
     }
