@@ -16,12 +16,17 @@ namespace Generics
             Employee<int> employee1 = new Employee<int>();
             employee1.Things = new List<int> { 1, 2, 3 };
 
-            foreach (Employee<int> emp in employee1.Things)
+            foreach (int emp in employee1.Things)
             {
                 Console.WriteLine(emp);
             }
-            
-                      
+
+            foreach (string emp1 in employee.Things)
+            {
+                Console.WriteLine(emp1);
+            }
+          Console.ReadLine();
+
         }
     }
 }

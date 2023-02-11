@@ -11,11 +11,11 @@ namespace Generics
         public List<T> Things { get; set; }
     }
 
-    public void Display()
-    {
-        foreach (Employee<int> emp in Things)
-        {
-            Console.WriteLine(emp);
-        }
-    }
+    //public void Display()
+    //{
+    //    foreach (Employee<int> emp in Things)
+    //    {
+    //        Console.WriteLine(emp);
+    //    }
+    //}
 }
