@@ -10,6 +10,9 @@ namespace OperatorOverload
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+
+            ID = 
         }
     }
 }

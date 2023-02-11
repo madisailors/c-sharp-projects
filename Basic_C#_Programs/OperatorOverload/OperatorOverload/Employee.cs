@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace OperatorOverload
 {
-    class Employee
+    public class Employee
     {
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static Employee operator== (Employee employee, ID id)
+        public static int operator== (Employee employee, ID id)
         {
-            employee.ID.CompareTo(id);
+            employee.ID.Equals(id);
 
         }
-        public static Employee operator!= (Employee employee, ID id)
+        public static int operator!= (Employee employee, ID id)
         {
-            employee.ID.CompareTo(id);
+            employee.ID.Equals(id);
 
         }
     }
