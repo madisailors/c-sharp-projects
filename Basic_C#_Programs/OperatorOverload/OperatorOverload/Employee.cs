@@ -12,9 +12,9 @@ namespace OperatorOverload
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static bool operator== (Employee id1, Employee id2)
+        public static bool operator== (Employee id1, Employee id2) //passing in parameters
         {
-            if (id1.Equals(id2))
+            if (id1.Equals(id2))   //comparing parameters
                 return true;
             else
                 return false;

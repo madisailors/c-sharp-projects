@@ -17,9 +17,9 @@ namespace OperatorOverload
             employee1.LastName = "Jones";
 
 
-            Employee employee2 = new Employee();
+            Employee employee2 = new Employee(); //instantiating emploee object
 
-            employee2.Id = 2;
+            employee2.Id = 2;              //assigning values to object properties
             employee2.FirstName = "Jack";
             employee2.LastName = "Smith";
 
@@ -27,7 +27,7 @@ namespace OperatorOverload
                 Console.WriteLine("True");
             else
                 Console.WriteLine("False");
-            Console.ReadLine();
+            Console.ReadLine();               //displaying results
 
 
 
