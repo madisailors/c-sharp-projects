@@ -23,10 +23,13 @@ namespace OperatorOverload
             employee2.FirstName = "Jack";
             employee2.LastName = "Smith";
 
-            if (employee1.Id == employee2.Id)
-                Console.WriteLine("True");
-            else
-                Console.WriteLine("False");
+            Console.WriteLine(employee1 == employee2); //simpler comparison than
+                                                       //the commented out code below 
+
+            //if (employee1.Id == employee2.Id)
+            //    Console.WriteLine("True");
+            //else
+            //    Console.WriteLine("False");
             Console.ReadLine();               //displaying results
 
 
