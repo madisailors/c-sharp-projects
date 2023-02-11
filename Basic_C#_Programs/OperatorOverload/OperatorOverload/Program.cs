@@ -12,7 +12,7 @@ namespace OperatorOverload
         {
             Employee employee = new Employee();
 
-            ID = 
+            Employee.ID = 1;
         }
     }
 }

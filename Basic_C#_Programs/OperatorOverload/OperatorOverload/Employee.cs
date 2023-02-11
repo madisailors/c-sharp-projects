@@ -12,14 +12,16 @@ namespace OperatorOverload
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static int operator== (Employee employee, ID id)
+        public static bool operator== (Employee id1, Employee id2)
         {
-            employee.ID.Equals(id);
+            if (id1.Equals(id2))
+                return true;
 
         }
-        public static int operator!= (Employee employee, ID id)
+        public static bool operator!= (Employee id1, Employee id2)
         {
-            employee.ID.Equals(id);
+            if (id1.Equals(id2))
+                return true;
 
         }
     }
