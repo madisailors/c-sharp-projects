@@ -10,9 +10,28 @@ namespace OperatorOverload
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
+            Employee employee1 = new Employee();
 
-            Employee.ID = 1;
+            employee1.Id = 1;
+            employee1.FirstName = "Jill";
+            employee1.LastName = "Jones";
+
+
+            Employee employee2 = new Employee();
+
+            employee2.Id = 2;
+            employee2.FirstName = "Jack";
+            employee2.LastName = "Smith";
+
+            if (employee1.Id == employee2.Id)
+                Console.WriteLine("True");
+            else
+                Console.WriteLine("False");
+            Console.ReadLine();
+
+
+
+            
         }
     }
 }
