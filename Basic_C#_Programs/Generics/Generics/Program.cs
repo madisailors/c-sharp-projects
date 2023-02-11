@@ -10,10 +10,11 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
+            Employee<string> employee = new Employee<string>();
             employee.Things = new List<string> { "one", "two", "three" };
 
-            Employee employee1 = new Employee();
+            Employee<int> employee1 = new Employee<int>();
+            employee1.Things = new List<int> { }
             
           
         }
