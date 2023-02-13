@@ -10,11 +10,9 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee();
+            List<Employee> employee = new List<Employee> { "Joe",  };
 
-            employee1.FirstName = "Joe";
-            employee1.LastName = "Smith";
-            employee1.Id = 01;
+            
         }
     }
 }
