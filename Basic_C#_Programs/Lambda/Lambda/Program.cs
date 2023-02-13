@@ -27,15 +27,21 @@ namespace Lambda
 
             foreach(Employee emp in employee)
             {
-                if(employee.FirstName == "Joe")
+                if(emp.FirstName == "Joe")
                     {
                     Console.WriteLine(emp);
+                    Console.ReadLine();
                     }
             }
+            Console.ReadLine();
 
-            List<Employee> newList1 = employee.Where(n => n.FirstName == "Joe").ToList(); 
+            List<Employee> newList1 = employee.Where(n => n.FirstName == "Joe").ToList();
+            Console.WriteLine(newList1);
 
             List<Employee> newList = employee.Where(x => x.Id >= 5).ToList();
+            Console.WriteLine(newList);
+
+            Console.ReadLine();
 
 
         }
