@@ -10,11 +10,28 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            List<string> employee.FirstName = new List<Employee>();
-            List<string> Employee.FirstName = new List<string>() { "Joe", "Sally", "Carl", "Nicole", "Evan", "Joe", "Bob", "Carmen", "Porter", "Tim" }; 
-
+            List<Employee> employee = new List<Employee>();
+            {
+                new Employee { FirstName = "Joe", LastName = "Smith", Id = 01 };
+                new Employee { FirstName = "John", LastName = "White", Id = 02 };
+                new Employee { FirstName = "Sally", LastName = "Sue", Id = 03 };
+                new Employee { FirstName = "Nancy", LastName = "Black", Id = 04 };
+                new Employee { FirstName = "Pat", LastName = "Doe", Id = 05 };
+                new Employee { FirstName = "Joe", LastName = "Pierce", Id = 06 };
+                new Employee { FirstName = "James", LastName = "Fitzgerald", Id = 07 };
+                new Employee { FirstName = "Amy", LastName = "West", Id = 08 };
+                new Employee { FirstName = "Becky", LastName = "Gomez", Id = 09 };
+                new Employee { FirstName = "Carl", LastName = "Greene", Id = 10 };
+            }
            
+
+            foreach (Employee emp in Employee.FirstName)
+            {
+                if (Employee.FirstName == FirstName.Joe)
+                    {
+                        Console.WriteLine()
+                    }
+            }
 
 
         }
