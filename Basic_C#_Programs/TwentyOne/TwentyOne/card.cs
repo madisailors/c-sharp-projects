@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-   public class Card
+   public struct Card   //structs can't be inherited
     { 
         public Suit Suit { get; set; } //public = accessable to other parts of program
         public Face Face { get; set; }
