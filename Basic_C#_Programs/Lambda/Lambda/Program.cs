@@ -10,7 +10,7 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
-            List<Employee> employee = new List<Employee>();
+            List<Employee> employee = new List<Employee>(); //instantiating class
             {
                 new Employee { FirstName = "Joe", LastName = "Smith", Id = 01 };
                 new Employee { FirstName = "John", LastName = "White", Id = 02 };
@@ -35,7 +35,7 @@ namespace Lambda
             }
             Console.ReadLine();
 
-            List<Employee> newList1 = employee.Where(n => n.FirstName == "Joe").ToList();
+            List<Employee> newList1 = employee.Where(n => n.FirstName == "Joe").ToList(); //adding all employees with first name joe to new list
             Console.WriteLine(newList1);
 
             List<Employee> newList = employee.Where(x => x.Id >= 5).ToList();
