@@ -33,7 +33,7 @@ namespace Lambda
                     }
             }
 
-            List<Employee> newList1 = 
+            List<Employee> newList1 = employee.Where(n => n.FirstName == "Joe").ToList(); 
 
             List<Employee> newList = employee.Where(x => x.Id >= 5).ToList();
 
