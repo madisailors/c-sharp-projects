@@ -25,11 +25,11 @@ namespace Lambda
             }
                                          
 
-            foreach (Employee emp in Employee.FirstName)
+            foreach(Employee emp in employee)
             {
-                if (Employee.FirstName == "Joe")
+                if(Employee.FirstName == "Joe")
                     {
-                    Console.WriteLine();
+                    Console.WriteLine(emp);
                     }
             }
 
