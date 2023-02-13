@@ -23,13 +23,13 @@ namespace Lambda
                 new Employee { FirstName = "Becky", LastName = "Gomez", Id = 09 };
                 new Employee { FirstName = "Carl", LastName = "Greene", Id = 10 };
             }
-           
+                                         
 
             foreach (Employee emp in Employee.FirstName)
             {
-                if (Employee.FirstName == FirstName.Joe)
+                if (Employee.FirstName == "Joe")
                     {
-                        Console.WriteLine()
+                    Console.WriteLine();
                     }
             }
 
