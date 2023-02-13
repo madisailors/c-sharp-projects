@@ -33,6 +33,8 @@ namespace Lambda
                     }
             }
 
+            List<Employee> newList = employee.Employee.FirstName.Where(x => x.Id >= 5).ToList();
+
 
         }
     }
