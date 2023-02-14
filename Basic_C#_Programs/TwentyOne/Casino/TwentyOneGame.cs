@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     class TwentyOneGame : Game, IWalkAway  // :Game is inheriting from our Game class
     {

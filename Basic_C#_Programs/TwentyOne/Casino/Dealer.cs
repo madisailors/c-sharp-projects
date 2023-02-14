@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
-    public class Dealer
+    class Dealer
     {
         public string Name { get; set; }
         public Deck Deck { get; set; }
