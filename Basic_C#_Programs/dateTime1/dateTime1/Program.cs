@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dateTime
+namespace dateTime1
 {
     class Program
     {
@@ -21,10 +21,6 @@ namespace dateTime
             Console.WriteLine("In {0} hours, the date and time will be: ", num);
             Console.Write(result);
             Console.ReadLine();
-
-
-
-
         }
     }
 }
