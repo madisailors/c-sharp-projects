@@ -3,3 +3,8 @@ C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Ca
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfoInputs.cache
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfo.cs
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.csproj.CoreCompileInputs.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\bin\Debug\netcoreapp3.1\Casino.deps.json
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\bin\Debug\netcoreapp3.1\Casino.dll
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\bin\Debug\netcoreapp3.1\Casino.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.dll
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.pdb

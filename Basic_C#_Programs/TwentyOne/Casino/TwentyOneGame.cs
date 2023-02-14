@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Casino.TwentyOne
 {
-    class TwentyOneGame : Game, IWalkAway  // :Game is inheriting from our Game class
+    public class TwentyOneGame : Game, IWalkAway  // :Game is inheriting from our Game class
     {
         public TwentyOneDealer Dealer { get; set; }
         public override void Play()
