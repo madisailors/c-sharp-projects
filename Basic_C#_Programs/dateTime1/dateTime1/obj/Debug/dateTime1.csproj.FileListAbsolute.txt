@@ -1,0 +1,7 @@
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\bin\Debug\dateTime1.exe.config
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\bin\Debug\dateTime1.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\bin\Debug\dateTime1.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\obj\Debug\dateTime1.csproj.AssemblyReference.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\obj\Debug\dateTime1.csproj.CoreCompileInputs.cache
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\obj\Debug\dateTime1.exe
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\dateTime1\dateTime1\obj\Debug\dateTime1.pdb
