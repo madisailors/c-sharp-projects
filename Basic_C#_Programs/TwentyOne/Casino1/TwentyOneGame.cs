@@ -45,11 +45,11 @@ namespace Casino.TwentyOne
                         bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
                         if (blackJack)
                         {
-                            Console.WriteLine("BlackJack! {0} wins {}", player.Name, Bets[player]);
+                            Console.WriteLine("BlackJack! {0} wins {1}", player.Name, Bets[player]);
                             player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
-                       
+                            Bets.Remove(player);
+                            return;
                         }
-                        return;
                     }
                 }
                 Console.Write("Dealer: ");
@@ -64,6 +64,7 @@ namespace Casino.TwentyOne
                         {
                             Dealer.Balance += entry.Value;
                         }
+                        return;
                     }
                 }
             }

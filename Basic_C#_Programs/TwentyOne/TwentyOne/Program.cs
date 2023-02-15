@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Casino;
 using Casino.TwentyOne;
@@ -10,6 +11,7 @@ namespace Casino
     {
         static void Main(string[] args)
         {
+            Player newPlayer = new Player("madi");
 
             Console.WriteLine("Welcome to the Grand Hotel & Casino. Start by telling me your name. ");
             string playerName = Console.ReadLine();
@@ -20,6 +22,11 @@ namespace Casino
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya" )
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\madis\logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivleyPlaying = true;
