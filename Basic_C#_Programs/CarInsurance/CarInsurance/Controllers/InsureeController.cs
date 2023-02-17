@@ -20,9 +20,23 @@ namespace CarInsurance.Controllers
             return View(db.Insurees.ToList());
         }
 
-        public ActionResult Quote()
+        public decimal Quote(Insuree insuree)
         {
-            
+            var time = DateTime.Now - insuree.DateOfBirth;
+            int age = Convert.ToInt32(time.TotalDays);
+            var baseQuote = 50.00;
+            if (age <= 6570) // 18 years in days
+            {
+              insuree.Quote = (decimal)(baseQuote + 100.00);
+            }
+            if (insuree.CarMake == "Porche" && insuree.CarModel == "911 Carrera")
+            {
+                insuree.Quote = (decimal)(baseQuote + 50.00);
+            }
+            else if (insuree.CarMake == "Porche")
+            {
+                insuree.Quote = (decimal)(baseQuote + 25.00);
+            }
         }
 
         // GET: Insuree/Details/5
