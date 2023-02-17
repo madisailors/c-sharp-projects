@@ -27,8 +27,16 @@ namespace CarInsurance.Controllers
             var baseQuote = 50.00;
             if (age <= 6570) // 18 years in days
             {
-              insuree.Quote = (decimal)(baseQuote + 100.00);
+                insuree.Quote = (decimal)(baseQuote + 100.00);
             }
+            else return (decimal)baseQuote;
+
+            if (age >= 6935 && age <= 9125)
+            {
+                insuree.Quote = (decimal)(baseQuote + 50.00);
+            }
+            else return (decimal)baseQuote;
+
             if (insuree.CarMake == "Porche" && insuree.CarModel == "911 Carrera")
             {
                 insuree.Quote = (decimal)(baseQuote + 50.00);
