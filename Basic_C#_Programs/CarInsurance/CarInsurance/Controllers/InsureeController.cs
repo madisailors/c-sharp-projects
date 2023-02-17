@@ -41,15 +41,19 @@ namespace CarInsurance.Controllers
             {
                 insuree.Quote = (decimal)(baseQuote + 25.00);
             }
-
             if (insuree.CarMake == "Porche" && insuree.CarModel == "911 Carrera")
             {
                 insuree.Quote = (decimal)(baseQuote + 50.00);
+            }
+            if (insuree.CarYear <= 2000 || insuree.CarYear >= 2015)
+            {
+                insuree.Quote = (decimal)(baseQuote + 25.00);
             }
             else if (insuree.CarMake == "Porche")
             {
                 insuree.Quote = (decimal)(baseQuote + 25.00);
             }
+
         }
 
         // GET: Insuree/Details/5
