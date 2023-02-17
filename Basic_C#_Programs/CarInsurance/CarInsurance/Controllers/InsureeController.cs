@@ -20,6 +20,11 @@ namespace CarInsurance.Controllers
             return View(db.Insurees.ToList());
         }
 
+        public ActionResult Quote()
+        {
+            
+        }
+
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
