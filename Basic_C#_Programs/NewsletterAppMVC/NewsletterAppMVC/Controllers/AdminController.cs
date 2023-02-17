@@ -1,4 +1,5 @@
 ﻿using NewsletterAppMVC.ViewModels;
+using NewsletterAppMVC.Models;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
