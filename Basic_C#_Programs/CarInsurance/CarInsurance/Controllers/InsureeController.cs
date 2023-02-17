@@ -176,5 +176,10 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult Admin(Insuree insuree)
+        {
+            return View("Admin");
+        }
     }
 }
