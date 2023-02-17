@@ -2,6 +2,7 @@
 using NewsletterAppMVC.Models;
 using System.Collections.Generic;
 using System.Web.Mvc;
+using System;
 
 namespace NewsletterAppMVC.Controllers
 {
@@ -12,11 +13,12 @@ namespace NewsletterAppMVC.Controllers
         {
             using (NewsletterEntities db = new NewsletterEntities())
             {
-                var signups = db.SignUps;
+                var signups = db.SignUps.Where(x => x.Removed == null).ToList();
                 var signupVms = new List<SignupVm>();
                 foreach (var signup in signups)
                 {
                     var signupVm = new SignupVm();
+                    signupVm.Id = signup.Id;
                     signupVm.FirstName = signup.FirstName;
                     signupVm.LastName = signup.LastName;
                     signupVm.EmailAddress = signup.EmailAddress;
@@ -24,6 +26,16 @@ namespace NewsletterAppMVC.Controllers
                 }
                 return View(signupVms);
             }
+        }
+        public ActionResult Unsubscribe(int Id)
+        {
+            using (NewsletterEntities db = new NewsletterEntities())
+            {
+                var signup = db.SignUps.Find(Id);
+                signup.Removed = DateTime.Now;
+                db.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
     }
 }
