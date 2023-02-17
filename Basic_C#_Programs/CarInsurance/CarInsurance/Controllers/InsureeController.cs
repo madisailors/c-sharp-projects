@@ -46,7 +46,7 @@ namespace CarInsurance.Controllers
             {
                 baseQuote += 25.00;
             }
-            else if (insuree.CarMake == "Porche")
+            if (insuree.CarMake == "Porche")
             {
                 baseQuote += 25.00;
             }
