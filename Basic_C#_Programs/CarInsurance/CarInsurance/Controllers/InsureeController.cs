@@ -53,6 +53,13 @@ namespace CarInsurance.Controllers
             {
                 insuree.Quote = (decimal)(baseQuote + 25.00);
             }
+            if (insuree.SpeedingTickets >= 1)
+            {
+                for (int i = 0; i >= 1; i = i + 10)
+                {
+                    insuree.Quote = (decimal)(baseQuote + i);
+                }
+            }
 
         }
 
