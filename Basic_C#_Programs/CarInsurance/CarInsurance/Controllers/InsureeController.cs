@@ -31,11 +31,16 @@ namespace CarInsurance.Controllers
             }
             else return (decimal)baseQuote;
 
-            if (age >= 6935 && age <= 9125)
+            if (age >= 6935 && age <= 9125) // if age is from 19 to 25 years
             {
                 insuree.Quote = (decimal)(baseQuote + 50.00);
             }
             else return (decimal)baseQuote;
+
+            if (age >= 9490) //26 years in days
+            {
+                insuree.Quote = (decimal)(baseQuote + 25.00);
+            }
 
             if (insuree.CarMake == "Porche" && insuree.CarModel == "911 Carrera")
             {
