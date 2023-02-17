@@ -80,3 +80,4 @@ C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\CarInsurance
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.AssemblyReference.cache

@@ -27,43 +27,49 @@ namespace CarInsurance.Controllers
             var baseQuote = 50.00;
             if (age <= 6570) // 18 years in days
             {
-                insuree.Quote = (decimal)(baseQuote + 100.00);
+                baseQuote += 50.00;
             }
-            else return (decimal)baseQuote;
 
             if (age >= 6935 && age <= 9125) // if age is from 19 to 25 years
             {
-                insuree.Quote = (decimal)(baseQuote + 50.00);
+                baseQuote += 50.00;
             }
-            else return (decimal)baseQuote;
-
             if (age >= 9490) //26 years in days
             {
-                insuree.Quote = (decimal)(baseQuote + 25.00);
+                baseQuote += 25.00;
             }
-            if (insuree.CarMake == "Porche" && insuree.CarModel == "911 Carrera")
+            if (insuree.CarModel == "911 Carrera")
             {
-                insuree.Quote = (decimal)(baseQuote + 50.00);
+                baseQuote += 50.00;
             }
             if (insuree.CarYear <= 2000 || insuree.CarYear >= 2015)
             {
-                insuree.Quote = (decimal)(baseQuote + 25.00);
+                baseQuote += 25.00;
             }
             else if (insuree.CarMake == "Porche")
             {
-                insuree.Quote = (decimal)(baseQuote + 25.00);
+                baseQuote += 25.00;
             }
             if (insuree.SpeedingTickets >= 1)
             {
                 for (int i = 0; i >= 1; i = i + 10)
                 {
-                    insuree.Quote = (decimal)(baseQuote + i);
+                    baseQuote += i;
                 }
             }
+
             if (insuree.DUI)
             {
-                insuree.Quote = insuree.Quote * 1.25;
+                baseQuote *= 1.5;
             }
+
+            if (insuree.CoverageType)
+            {
+                baseQuote *= 1.5;
+            }
+
+            insuree.Quote = (decimal)(baseQuote);
+            return insuree.Quote;
 
         }
 
