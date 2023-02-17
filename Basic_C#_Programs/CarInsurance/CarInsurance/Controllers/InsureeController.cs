@@ -60,6 +60,10 @@ namespace CarInsurance.Controllers
                     insuree.Quote = (decimal)(baseQuote + i);
                 }
             }
+            if (insuree.DUI)
+            {
+                insuree.Quote = insuree.Quote * 1.25;
+            }
 
         }
 
