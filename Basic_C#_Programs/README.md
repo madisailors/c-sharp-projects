@@ -1,4 +1,4 @@
-# This is where you'll find the highlights of my C# projects.
+### Here you'll find the highlights of my C# projects.
 
 [Car Insurance](https://github.com/madisailors/c-sharp-projects/tree/main/Basic_C%23_Programs/CarInsurance)
 
