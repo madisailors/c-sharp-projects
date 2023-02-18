@@ -22,27 +22,25 @@ namespace CarInsurance.Controllers
 
         public decimal Quote(Insuree insuree)
         {
-            var time = DateTime.Now - insuree.DateOfBirth;
-            int age = Convert.ToInt32(time.TotalDays);
+            int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
             var baseQuote = 50.00;
-            if (age <= 6570) // 18 years in days
+            if (age <= 18) 
+            {
+                baseQuote += 100.00;
+            }
+            if (age > 18 && age <= 25) // if age is from 19 to 25 years
             {
                 baseQuote += 50.00;
             }
-
-            if (age >= 6935 && age <= 9125) // if age is from 19 to 25 years
-            {
-                baseQuote += 50.00;
-            }
-            if (age >= 9490) //26 years in days
+            if (age >= 26) //26 years in days
             {
                 baseQuote += 25.00;
             }
             if (insuree.CarModel == "911 Carrera")
             {
-                baseQuote += 50.00;
+                baseQuote += 25.00;
             }
-            if (insuree.CarYear <= 2000 || insuree.CarYear >= 2015)
+            if (insuree.CarYear < 2000 || insuree.CarYear > 2015)
             {
                 baseQuote += 25.00;
             }
@@ -50,17 +48,14 @@ namespace CarInsurance.Controllers
             {
                 baseQuote += 25.00;
             }
-            if (insuree.SpeedingTickets >= 1)
+            if (insuree.SpeedingTickets > 0)
             {
-                for (int i = 0; i >= 1; i = i + 10)
-                {
-                    baseQuote += i;
-                }
+                baseQuote += (insuree.SpeedingTickets * 10);
             }
 
             if (insuree.DUI)
             {
-                baseQuote *= 1.5;
+                baseQuote *= 1.25;   
             }
 
             if (insuree.CoverageType)
@@ -180,7 +175,7 @@ namespace CarInsurance.Controllers
 
         public ActionResult Admin()
         {
-            return View("Admin");
+            return View(db.Insurees.ToList());
         }
     }
 }
