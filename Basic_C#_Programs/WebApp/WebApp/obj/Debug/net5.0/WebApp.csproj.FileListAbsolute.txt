@@ -37,3 +37,4 @@ C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\WebApp\WebAp
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\WebApp\WebApp\obj\Debug\net5.0\WebApp.pdb
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\WebApp\WebApp\obj\Debug\net5.0\WebApp.genruntimeconfig.cache
 C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\WebApp\WebApp\obj\Debug\net5.0\WebApp.csproj.CopyComplete
+C:\Users\madis\Basic_C#_Programs\c-sharp-projects\Basic_C#_Programs\WebApp\WebApp\obj\Debug\net5.0\WebApp.csproj.AssemblyReference.cache
